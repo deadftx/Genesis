@@ -244,7 +244,7 @@ h6,
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(15, 66, 41, .6);
+    background: rgba(21, 21, 21, 0.6);
     z-index: 1;
 }
 
@@ -328,7 +328,7 @@ h6,
 /*** Facts & Quote ***/
 .facts,
 .quote {
-    background: rgba(15, 66, 41, .6);
+    background: rgba(20, 21, 20, 0.6);
 }
 
 
@@ -602,14 +602,14 @@ h6,
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: #4b4a4a;
     letter-spacing: 1px;
     box-shadow: none;
 }
 
 .copyright {
     color: var(--light);
-    background: #072A19;
+    background: #000000;
 }
 
 .copyright a {

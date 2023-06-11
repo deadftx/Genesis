@@ -63,7 +63,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-family: "Jost", sans-serif;
     font-weight: 700;
     line-height: 1.2;
-    color: #0F4229;
+    color: black;
 }
 h1, .h1 {
     font-size: calc(1.375rem + 1.5vw);
@@ -5965,10 +5965,10 @@ textarea.form-control-lg {
     word-break: break-word !important;
 }
 .text-primary {
-    color: #348E38 !important;
+    color: #2fade3 !important;
 }
 .text-secondary {
-    color: #525368 !important;
+    color: black !important;
 }
 .text-success {
     color: #198754 !important;
@@ -5992,7 +5992,7 @@ textarea.form-control-lg {
     color: #fff !important;
 }
 .text-body {
-    color: #525368 !important;
+    color: black !important;
 }
 .text-muted {
     color: #6c757d !important;
@@ -6028,7 +6028,7 @@ textarea.form-control-lg {
     background-color: #E8F5E9 !important;
 }
 .bg-dark {
-    background-color: #0F4229 !important;
+    background-color: black !important;
 }
 .bg-body {
     background-color: #fff !important;
