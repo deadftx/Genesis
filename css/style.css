@@ -307,6 +307,12 @@ h6,
     color: var(--light);
 }
 
+/*** Icones Menu Dropdown ***/
+
+.MenuIcons {
+    width: 50px;
+}
+
 
 /*** Top Feature ***/
 @media (min-width: 991.98px) {
