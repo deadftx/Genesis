@@ -3,19 +3,20 @@ const menu = document.getElementById("topMenu");
 
 // Define a função para verificar a posição da rolagem
 function toggleMenuBackground() {
-    // Obtém a posição vertical da página
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-    // Adiciona ou remove a classe "transparent" com base na posição da rolagem
     if (scrollTop > 1) {
         menu.classList.add("transparent");
+        menu.classList.add("text-light");
     } else {
         menu.classList.remove("transparent");
+        menu.classList.remove("text-light");
     }
 }
 
 // Adiciona um ouvinte de evento para a rolagem da página
 window.addEventListener("scroll", toggleMenuBackground);
+
+
 
 
 
