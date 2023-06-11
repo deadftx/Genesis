@@ -426,14 +426,14 @@ h6,
 /*** Project Portfolio ***/
 #portfolio-flters {
     display: inline-block;
-    background: var(--light);
+    background: rgb(255, 255, 255);
     padding: 10px 15px;
 }
 
 #portfolio-flters li {
     display: inline-block;
     font-weight: 500;
-    color: var(--primary);
+    color: rgb(6, 5, 5);
     cursor: pointer;
     transition: .5s;
     border-bottom: 2px solid transparent;
@@ -441,8 +441,8 @@ h6,
 
 #portfolio-flters li:hover,
 #portfolio-flters li.active {
-    color: var(--dark);
-    border-color: var(--dark);
+    color: black;
+    border-color: #4d4c4c;
 }
 
 .portfolio-inner {
@@ -458,7 +458,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(15, 66, 41, .6);
+    background: rgba(0, 0, 0, 0.6);
     transition: .5s;
 }
 
