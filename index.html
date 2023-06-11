@@ -56,13 +56,13 @@
                         <a href="index.html" class="nav-link active">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link">SOBRE</a>
+                        <a href=#about class="nav-link">SOBRE</a>
                     </li>
                     <li class="nav-item">
-                        <a href="project.html" class="nav-link">PROJETOS</a>
+                        <a href="#projects" class="nav-link">PROJETOS</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SERVIÇOS</a>
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SERVIÇOS</a>
                         <div class="dropdown-menu bg-light">
                             <a href="eletrica.html" class="dropdown-item"><img class="MenuIcons" src="img/raio.jpg" > Engenharia Elétrica</a>
                             <a href="ambiental.html" class="dropdown-item"><img class="MenuIcons" src="img/engenharia_ambiental.jpg" > Engenharia Ambiental</a>
@@ -73,7 +73,7 @@
                         </div>
                     </li>
                 </ul>
-                <a href="" class="btn btn-primary py-sm-3 px-sm-4">Solicite um orçamento</a>
+                <a href="https://wa.me/+557436453859" target="_blank" class="btn btn-primary py-sm-3 px-sm-4">Solicite um orçamento</a>
             </div>
         </nav>
         
@@ -88,7 +88,12 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/placa_solar.jpg" alt="Image">
+                    <video autoplay loop muted>
+                        <source src="img/video_1.mp4" type="video/mp4">
+                        <object data="" width="320" height="240">
+                        <embed width="320" height="240" src="">
+                        </object>
+                        </video>                     
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -100,6 +105,26 @@
                         </div>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <video autoplay loop muted>
+                        <source src="img/ambiental.mp4" type="video/mp4">
+                        <object data="" width="320" height="240">
+                        <embed width="320" height="240" src="">
+                        </object>
+                        </video>  
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7">
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Engenharia Ambiental</h1>
+                                    <a href="ambiental.html" class="btn btn-primary py-sm-3 px-sm-4">Saiba Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
                 
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
@@ -172,8 +197,8 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
+    <div class="container-xxl py-5" id="about">
+        <div class="container" >
             <div class="row g-5 align-items-end">
                 <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
                     <img class="img-fluid-about rounded"  data-wow-delay="0.1s" src="img/engenharia.png">
@@ -444,7 +469,7 @@
 
     <!-- Projects Start -->
     <div class="container-xxl py-5">
-        <div class="container">
+        <div class="container" id="projects">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="fs-5 fw-bold text-primary">Nossos projetos</p>
                 <h1 class="display-5 mb-5">Veja alguns de nossos projetos executados</h1>
@@ -666,7 +691,7 @@
     <!-- Footer End -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://wa.me/+557436453859" class="float" target="_blank">
+    <a href="https://wa.me/+557436453859" target="_blank" class="float">
     <i class="fa fa-whatsapp my-float"></i>
     </a>
 
