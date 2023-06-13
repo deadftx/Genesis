@@ -105,15 +105,46 @@ h6,
     display: flex;
     gap: 30px;
     animation: carouselSlide 20s infinite linear;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   
   .carousel.Client .carousel-slide img {
     max-height: 100px;
-    max-width: 100px;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;
+    width: auto;
+    margin-bottom: 10px;
+    flex: 0 0 calc(14.28% - 30px);
   }
+
+  .parallax {
+    height: 400px; 
+    background-color: rgba(56, 54, 54, 0.192);
+    overflow: hidden;
+  }
+  
+  @media (max-width: 700px) {
+    .carousel.Client {
+        max-height: 700px;
+
+    }
+}
+
+@media (max-width: 700px) {
+    .parallax {
+        height: 485px;
+
+    }
+}
+
+    @media (max-width: 700px) {
+
+    .carousel-slide img {
+      margin-bottom: 0;
+    }
+  }
+
+  
+  
   
   
   .carousel.Client .carousel-slide img:hover {
@@ -161,11 +192,7 @@ h6,
     margin-top: 20px;
   }
      
-  .parallax {
-    height: 400px; /* Ajuste conforme necessário */
-    background-color: rgba(56, 54, 54, 0.192);
-    overflow: hidden;
-  }
+  
   
   
   
