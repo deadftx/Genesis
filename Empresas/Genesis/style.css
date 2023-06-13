@@ -1,6 +1,13 @@
 body {
-    background-color: #f4f4f4;
+        
     font-family: Arial, sans-serif;
+
+}
+
+.background {
+    
+    background-image: url(irmaos.jpg) ;  
+    background-size: cover;
 }
 
 .login-container {
@@ -45,3 +52,4 @@ body {
     margin-bottom: 10px;
     text-align: center;
 }
+
