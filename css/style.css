@@ -89,6 +89,86 @@ h6,
     font-weight: normal;
 }
 
+/*** Clients ***/
+
+.carousel.Client {
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .carousel.Client .carousel-slide {
+    display: flex;
+    gap: 30px;
+    animation: carouselSlide 20s infinite linear;
+  }
+  
+  .carousel.Client .carousel-slide img {
+    max-height: 100px;
+    max-width: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  .carousel.Client .carousel-slide img:hover {
+    opacity: 0.8;
+  }
+  
+  .carousel.Client .carousel-slide img:focus {
+    outline: none;
+  }
+  
+  .carousel.Client .carousel-prev,
+  .carousel.Client .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .carousel.Client .carousel-prev:hover,
+  .carousel.Client .carousel-next:hover {
+    opacity: 0.8;
+  }
+  
+  .carousel.Client .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel.Client .carousel-next {
+    right: 10px;
+  }
+  
+  .carousel.Client .carousel-title {
+    text-align: center;
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: bold;
+    margin-top: 20px;
+  }
+     
+  .parallax {
+    height: 400px; /* Ajuste conforme necessário */
+    background-color: rgba(56, 54, 54, 0.192);
+    overflow: hidden;
+  }
+  
+  
+  
 
 /*** Video ***/ 
     .video {

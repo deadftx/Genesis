@@ -18,6 +18,37 @@ window.addEventListener("scroll", toggleMenuBackground);
 
 
 
+// Clientes
+/*
+const carousel = document.querySelector('.carousel.Client');
+const slide = carousel.querySelector('.carousel-slide');
+const prevBtn = carousel.querySelector('.carousel-prev');
+const nextBtn = carousel.querySelector('.carousel-next');
+
+const slideWidth = carousel.offsetWidth;
+
+let currentSlide = 0;
+
+nextBtn.addEventListener('click', () => {
+  currentSlide++;
+  slide.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+});
+
+prevBtn.addEventListener('click', () => {
+  currentSlide--;
+  slide.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+});
+*/
+
+//Paralax
+
+window.addEventListener("scroll", function() {
+    const parallax = document.querySelector(".parallax");
+    const scrollPosition = window.pageYOffset;
+    parallax.style.backgroundPositionY = -scrollPosition * 0.3 + "px"; // Ajuste a velocidade conforme necessário
+  });
+  
+
 
 
 
