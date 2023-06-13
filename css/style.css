@@ -89,6 +89,18 @@ h6,
     font-weight: normal;
 }
 
+/*** Video ***/ 
+    .video {
+    }
+
+
+    @media (min-width: 721px) {
+        .video  { 
+            min-width: 100%;
+
+        }
+    }
+
 /*** Whats ***/
 .float{
 	position:fixed;
