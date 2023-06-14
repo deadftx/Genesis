@@ -127,21 +127,15 @@ h6,
         max-height: 700px;
 
     }
-}
-
-@media (max-width: 700px) {
     .parallax {
         height: 630px;
 
     }
+    .carousel-slide img {
+        margin-bottom: 0;
+      }
 }
 
-    @media (max-width: 700px) {
-
-    .carousel-slide img {
-      margin-bottom: 0;
-    }
-  }
 
   
   
