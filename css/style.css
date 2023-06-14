@@ -103,7 +103,7 @@ h6,
   
   .carousel.Client .carousel-slide {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     animation: carouselSlide 20s infinite linear;
     justify-content: center;
     flex-wrap: wrap;
@@ -124,11 +124,11 @@ h6,
   
   @media (max-width: 700px) {
     .carousel.Client {
-        max-height: 700px;
+        max-height: 740px;
 
     }
     .parallax {
-        height: 630px;
+        height: 740px;
 
     }
     .carousel-slide img {
