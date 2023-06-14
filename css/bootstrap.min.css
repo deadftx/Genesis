@@ -466,6 +466,7 @@ progress {
     padding-left: var(--bs-gutter-x,  .75rem);
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
 }
 @media (min-width: 576px) {
     .container, .container-sm {
